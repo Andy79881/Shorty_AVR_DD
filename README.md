@@ -2,7 +2,7 @@
 
 This is a fork of the original version from kripton2035. The new development aim to meet my own requirements and needs.
 - Use of Seeeduino Xiao (SAMD21G18) instead of Arduino Nano / Pro Mini with Atmega328P, which provides:
-  - powerful ARM Cortex M0+ core 
+  - powerful ARM Cortex-M0+ core 
   - more advanced peripherals,
   - more memory and
   - higher clock speed
