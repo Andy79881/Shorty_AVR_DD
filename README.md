@@ -1,5 +1,11 @@
 # Shorty_Xiao
 
+## What is it for?
+
+Shorty is short circuit finder, usable for checking PCB, for example. Where normal digital multimeters do not have enough of resolution to differentiate low PCB resistance in order of tens of miliohms to allow exact short circuit location, shorty comes to help.
+
+## Design origin and adoptions 
+
 This is a fork of the original version from kripton2035. The new development aim to meet my own requirements and needs.
 - Use of Seeeduino Xiao (SAMD21G18) instead of Arduino Nano / Pro Mini with Atmega328P, which provides:
   - powerful ARM Cortex-M0+ core 
@@ -17,7 +23,7 @@ This is a fork of the original version from kripton2035. The new development aim
 
 - https://hackaday.io/project/3635-shorty-short-circuit-finder
 - https://www.eevblog.com/forum/testgear/finding-short-on-motherboards-with-a-shorty-(with-display)
-- http://kripton2035.free.fr/Projects/proj-shorty.html](http://kripton2035.free.fr/Continuity%20Meters/shorty-with-disp.html
+- http://kripton2035.free.fr/Continuity%20Meters/shorty-with-disp.html
 
 # Project status
 
