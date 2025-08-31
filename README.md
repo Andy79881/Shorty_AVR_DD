@@ -1,4 +1,4 @@
-# Shorty_Xiao
+# Shorty_AVR_DD
 
 ## What is it for?
 
@@ -7,16 +7,16 @@ Shorty is short circuit finder, usable for checking PCB, for example. Where norm
 ## Design origin and adoptions 
 
 This is a fork of the original version from kripton2035. The new development aim to meet my own requirements and needs.
-- Use of Seeeduino Xiao (SAMD21G18) instead of Arduino Nano / Pro Mini with Atmega328P, which provides:
-  - powerful ARM Cortex-M0+ core 
+- Use of AVR DD series (AVR32DD20) instead of Arduino Nano / Pro Mini with Atmega328P, which provides:
+  - powerful AVR core with HW multiplier
   - more advanced peripherals,
-  - more memory (256kB Flash, 32kB SRAM),
-  - higher clock speed (up to 48 MHz),
+  - memory (32kB Flash, 4kB SRAM),
+  - higher clock speed (up to 24 MHz),
   - low power consumption,
-  - Low voltage supply operation (SAM D21: 1.62 V - 3.63 V)
+  - Low voltage supply operation (1.8 V - 5.5 V)
 - Update of hardware:
-   - A fully integrated differential amplifier with gain 50 used. Pro: matched internal resistor network for higher accuracy
-   - 3.3V supply only for all components, since SAMD21G18 has no 5V tolerant inputs
+   - Another Zero-drift OPamp used (AD8551) due to lack of availbility of the original one, 0.1% resistors used
+   - 3.3V supply only for all components,
    - re-evaluated equation to calcuate Rx from ADC data (thanks to kripton2035 for his support!)
 
 # Original idea links
