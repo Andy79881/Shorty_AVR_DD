@@ -9,11 +9,12 @@ Shorty is short circuit finder, usable for checking PCB, for example. Where norm
 This is a fork of the original version from kripton2035. The new development aim to meet my own requirements and needs.
 - Use of AVR DD series (AVR32DD20) instead of Arduino Nano / Pro Mini with Atmega328P, which provides:
   - powerful AVR core with HW multiplier
-  - more advanced peripherals,
-  - memory (32kB Flash, 4kB SRAM),
+  - more advanced peripherals (even thogh not really needed),
+  - memory (32kB Flash, 4kB SRAM) - ok, flash memory is identical to Atmega328P
   - higher clock speed (up to 24 MHz),
   - low power consumption,
   - Low voltage supply operation (1.8 V - 5.5 V)
+- Since there is no real reason to change the micro controller from HW requirements point of view, the main motivation was to learn coding the new AVR Dx series. 
 - Update of hardware:
    - Another Zero-drift OPamp used (AD8551) due to lack of availbility of the original one, 0.1% resistors used
    - 3.3V supply only for all components,
@@ -36,9 +37,9 @@ This is a fork of the original version from kripton2035. The new development aim
   - Calibration -> OPEN
  
 ## Hardware
-- Current implementation -> only perf board with Xiao and Display
-- Kicad Design -> started
-- Housing -> OPEN
+- Current implementation -> ready with AVR Dx series
+- Kicad Design -> completed
+- Housing -> commercial available hand held housing used.
 
  # Compilation from Sources
 
