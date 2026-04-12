@@ -50,7 +50,7 @@ This is a fork of the original version from kripton2035. The new development aim
  # Compilation from Sources
 
 Code has been developed with VSCode and platformIO plugin. Since the AVR32DD14/ AVR32DD20 was not directly supported from the standard tool chain at the time of writing . It needs a newer toolchain version with AVR32DD14/ AVR32DD20 support.
-Refer to: [AVR32DD14 support] https://community.platformio.org/t/avr32dd14-support/45906
+Refer to: [AVR32DD14 support]: https://community.platformio.org/t/avr32dd14-support/45906
 Required steps:
 - Board support is added in the form of JSON files in the boards/ folder of the platform
 - add tool chain in platformio.ini:
