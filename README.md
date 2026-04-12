@@ -50,10 +50,7 @@ This is a fork of the original version from kripton2035. The new development aim
 Code has been developed with VSCode and platformIO plugin
 
 # Known limitations
-
-Even though the Xiao is well supported by arduino core there seems to be some functions to be checked for correct operation:
-- tone() -> basic function seems to be ok, jitter observed on oscilloscope. Reason unknown so far and also if the jitter has any affect in practise.
-- noTone() -> do not use in setup() routine otherwise software get stuck
+- None
 
 # Final remarks
 
