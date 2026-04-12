@@ -14,7 +14,7 @@ This is a fork of the original version from kripton2035. The new development aim
   - higher clock speed (up to 24 MHz),
   - low power consumption,
   - Low voltage supply operation (1.8 V - 5.5 V)
-- Since there is no real reason to change the micro controller from HW requirements point of view, the main motivation was to learn coding the new AVR Dx series. 
+  - Since there is no real reason to change the micro controller from HW requirements point of view, the main motivation was to learn coding the new AVR Dx series. 
 - Update of hardware:
    - Another Zero-drift OPamp used (AD8551) due to lack of availbility of the original one, 0.1% resistors used
    - 3.3V supply only for all components,
@@ -40,6 +40,10 @@ This is a fork of the original version from kripton2035. The new development aim
 - Current implementation -> ready with AVR Dx series
 - Kicad Design -> completed
 - Housing -> commercial available hand held housing used.
+- Complete build:
+  - not finished
+  - some mechanics work to do and
+  - I need to order a small 4 pin connector
 
  # Compilation from Sources
 
