@@ -25,6 +25,7 @@ This is a fork of the original version from kripton2035. The new development aim
 - https://hackaday.io/project/3635-shorty-short-circuit-finder
 - https://www.eevblog.com/forum/testgear/finding-short-on-motherboards-with-a-shorty-(with-display)
 - http://kripton2035.free.fr/Continuity%20Meters/shorty-with-disp.html
+- https://gitlab.com/jdobry/shortypen
 
 # Project status
 
@@ -32,8 +33,9 @@ This is a fork of the original version from kripton2035. The new development aim
 - Work in progress (WIP)
 - partly tested, current status:
   - Display -> OK
-  - 18bit ADC -> OPEN
+  - 18bit ADC -> OK
   - ADC -> OK
+  - Battery status -> OK
   - Calibration -> OPEN
  
 ## Hardware
