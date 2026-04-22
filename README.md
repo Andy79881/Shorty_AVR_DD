@@ -9,7 +9,7 @@ Shorty is short circuit finder, usable for checking PCB, for example. Where norm
 This is a fork of the original version from kripton2035. The new development aim to meet my own requirements and needs.
 - Use of AVR DD series (AVR32DD20) instead of Arduino Nano / Pro Mini with Atmega328P, which provides:
   - powerful AVR core with HW multiplier
-  - more advanced peripherals (even thogh not really needed),
+  - more advanced peripherals (even though not really needed),
   - memory (32kB Flash, 4kB SRAM) - ok, flash memory is identical to Atmega328P
   - higher clock speed (up to 24 MHz),
   - low power consumption,
